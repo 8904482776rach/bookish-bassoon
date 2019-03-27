@@ -1,9 +1,8 @@
-matrix
-include
--language:c
+
+language:c
 sudo: false # only for faster builds
 compiler:
    -gcc
 script:
-   -gcc - o test test.c
-   -./test
+   - gcc -o test test.c
+   - ./test
